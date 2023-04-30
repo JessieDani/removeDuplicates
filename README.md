@@ -11,13 +11,12 @@ Additionally, the web server provides an endpoint that returns the cleaned JSON 
 
 Make sure you have [Node.js](https://nodejs.org/) installed on your system.
 
+
 ### Installing Dependencies
 
 Clone the repository and navigate to the project folder:
 
-git clone [(https://github.com/JessieDani/removeDuplicates.git)]](https://github.com/JessieDani/removeDuplicates.git)
-
-cd remove-duplicates-json
+git clone [(https://github.com/JessieDani/removeDuplicates.git)] (https://github.com/JessieDani/removeDuplicates.git)
 
 
 ### Running the Script
@@ -30,13 +29,10 @@ This code snippet provides a solution to remove duplicate values from a JSON obj
 
 ## Steps
 
-* Read and parse the mock_application.json file into a JavaScript object
-* 
-* Iterate/loop through the key-value pairs in the input JSON object
-* 
-* Remove duplicate values based on the valuesSeen Set
-* 
-* Get the cleaned JSON object and write it to a file
+* Read and parse the mock_application.json file into a JavaScript object.
+* Iterate/loop through the key-value pairs in the input JSON object.
+* Remove duplicate values based on the valuesSeen Set.
+* Get the cleaned JSON object and write it to a file.
 
 
 The script will read the `mock_application.json` file, remove duplicate values, and write the cleaned JSON object to a new file named `clean_application.json`.
@@ -44,6 +40,8 @@ The script will read the `mock_application.json` file, remove duplicate values, 
 ### Running the Web Server
 
 To start the web server, run the following command:
+
+`node removeDuplicatesWeb.js`
 
 ## Jest testing
 
