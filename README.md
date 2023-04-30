@@ -15,7 +15,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your system.
 
 Clone the repository and navigate to the project folder:
 
-git clone (https://github.com/JessieDani/removeDuplicates.git)]
+git clone [(https://github.com/JessieDani/removeDuplicates.git)]](https://github.com/JessieDani/removeDuplicates.git)
 
 cd remove-duplicates-json
 
